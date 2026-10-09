@@ -24,11 +24,11 @@
 
 ## `> 01 / SYSTEM OVERVIEW`
 
-**Solchain is an experimental, AI-powered Solana trading research platform designed to analyze newly launched tokens, identify potential trading opportunities, simulate execution, and learn from verified trading outcomes.**
+**ARES-04 is an experimental, AI-powered Solana trading research platform designed to analyze newly launched tokens, identify potential trading opportunities, simulate execution, and learn from verified trading outcomes.**
 
 The platform combines real-time blockchain monitoring, historical market analysis, four specialized machine-learning models, a weighted trading council, and a controlled model-improvement pipeline.
 
-Solchain's objective is not simply to predict whether a token's price will rise.
+ARES-04's objective is not simply to predict whether a token's price will rise.
 
 It is designed to answer a more difficult question:
 
@@ -36,7 +36,7 @@ It is designed to answer a more difficult question:
 
 The project focuses on the earliest stages of Solana token launches, when market conditions can change within seconds and traditional indicators may provide limited information about underlying wallet behavior.
 
-Solchain is a research and paper-trading platform. Real-money execution is not enabled.
+ARES-04 is a research and paper-trading platform. Real-money execution is not enabled.
 
 ---
 
@@ -101,7 +101,7 @@ Each component has a defined responsibility, allowing the system to evaluate its
 
 ### The first 60 minutes can reveal the market's structure.
 
-Solchain is designed to capture the early lifecycle of newly launched Solana tokens through observations at **15-second intervals**.
+ARES-04 is designed to capture the early lifecycle of newly launched Solana tokens through observations at **15-second intervals**.
 
 ```text
 TOKEN DEPLOYMENT
@@ -128,7 +128,7 @@ TOKEN DEPLOYMENT
 | Temporal verification | Event timestamps, finality, availability |
 | Outcome analysis | Future price behavior and execution feasibility |
 
-Solchain aims to understand not only **what the market is doing**, but also which observable conditions preceded subsequent outcomes.
+ARES-04 aims to understand not only **what the market is doing**, but also which observable conditions preceded subsequent outcomes.
 
 ---
 
@@ -136,13 +136,13 @@ Solchain aims to understand not only **what the market is doing**, but also whic
 
 ### Independent predictions. Collective decisions.
 
-Solchain operates four frozen specialist machine-learning models that evaluate verified market features.
+ARES-04 operates four frozen specialist machine-learning models that evaluate verified market features.
 
 Each specialist produces an independent prediction. The master engine combines these predictions using a weighted decision process and applies additional risk constraints.
 
 ```text
 ┌────────────────────────────────────────────────────────┐
-│                  SOLCHAIN AI COUNCIL                   │
+│                  ARES-04 AI COUNCIL                   │
 ├────────────────────────────────────────────────────────┤
 │                                                        │
 │   ┌────────────┐              ┌────────────┐           │
@@ -186,7 +186,7 @@ These are conceptual decision categories; the underlying implementation may use 
 
 ### The system doesn't just predict. It's designed to learn.
 
-Solchain's long-term architecture includes a feedback-driven learning pipeline that uses verified simulated trading outcomes to develop improved candidate models.
+ARES-04's long-term architecture includes a feedback-driven learning pipeline that uses verified simulated trading outcomes to develop improved candidate models.
 
 Every eligible completed paper trade can contribute evidence about entry timing, exit performance, liquidity conditions, execution costs, and prediction quality.
 
@@ -214,7 +214,7 @@ flowchart TD
     style J fill:#123629,stroke:#14F195,color:#FFFFFF
 ```
 
-### What Solchain learns from
+### What ARES-04 learns from
 
 | Research signal | Learning objective |
 |---|---|
@@ -283,7 +283,7 @@ These are minimum research gates, not proof that a candidate is profitable.
 
 ### Predictions are not profits. Execution matters.
 
-Solchain includes a simulated broker designed to evaluate trading strategies without risking real capital.
+ARES-04 includes a simulated broker designed to evaluate trading strategies without risking real capital.
 
 The execution layer considers whether a proposed trade could realistically have occurred under the available market conditions.
 
@@ -300,7 +300,7 @@ The execution layer considers whether a proposed trade could realistically have 
 
 ```text
 ┌───────────────────────────────────────────────────┐
-│               SOLCHAIN PAPER BROKER              │
+│               ARES-04 PAPER BROKER              │
 ├───────────────────────────────────────────────────┤
 │                                                   │
 │  EXECUTION MODE      SIMULATION ONLY              │
@@ -324,7 +324,7 @@ Only outcomes that meet the required verification conditions can be used as conf
 
 ### No future information. No fabricated evidence.
 
-One of Solchain's most important engineering requirements is ensuring that every prediction uses only information available at the time the decision was made.
+One of ARES-04's most important engineering requirements is ensuring that every prediction uses only information available at the time the decision was made.
 
 The system uses evidence verification and provenance tracking to protect against look-ahead bias.
 
@@ -351,7 +351,7 @@ A token can generate large amounts of blockchain activity during its first hour.
 
 Rebuilding every historical transaction for every 15-second checkpoint can introduce delays that make predictions obsolete.
 
-Solchain's incremental engine is designed to update only newly admitted evidence while retaining exact historical contributor relationships.
+ARES-04's incremental engine is designed to update only newly admitted evidence while retaining exact historical contributor relationships.
 
 Its architecture includes:
 
@@ -373,7 +373,7 @@ Passing isolated component benchmarks does not establish full live readiness; su
 
 ### Every observation should be reproducible.
 
-Solchain separates research data into independent domains to prevent accidental mixing of historical training examples and live paper-trading outcomes.
+ARES-04 separates research data into independent domains to prevent accidental mixing of historical training examples and live paper-trading outcomes.
 
 | Data domain | Purpose |
 |---|---|
@@ -440,7 +440,7 @@ The project remains in active development. Passing regression tests and offline 
 
 ### From market observation to adaptive trading intelligence.
 
-Solchain's ultimate goal is to create an autonomous research environment that can continuously study newly launched Solana tokens, identify meaningful on-chain patterns, make evidence-based simulated trading decisions, and develop improved models through independently verified outcomes.
+ARES-04's ultimate goal is to create an autonomous research environment that can continuously study newly launched Solana tokens, identify meaningful on-chain patterns, make evidence-based simulated trading decisions, and develop improved models through independently verified outcomes.
 
 The system is intended to evolve through a controlled research cycle:
 
@@ -452,7 +452,7 @@ It should be capable of evaluating its own decisions, identifying weaknesses, te
 
 The measure of success is not how often the system trades, how many models it trains, or how profitable a historical backtest appears.
 
-It is whether Solchain can demonstrate **repeatable, risk-aware performance under independently verified market conditions**.
+It is whether ARES-04 can demonstrate **repeatable, risk-aware performance under independently verified market conditions**.
 
 ---
 
